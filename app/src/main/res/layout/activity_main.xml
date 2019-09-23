@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/res_tv"
+        android:layout_width="391dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="monospace"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num2_et" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="424dp"
+            android:layout_height="60dp"
+            android:text="ADD" />
+
+        <Button
+            android:id="@+id/sub_btn"
+            android:layout_width="423dp"
+            android:layout_height="60dp"
+            android:text="SUBTRACT" />
+
+        <Button
+            android:id="@+id/mul_btn"
+            android:layout_width="421dp"
+            android:layout_height="60dp"
+            android:text="MULTIPLY" />
+
+        <Button
+            android:id="@+id/divide_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="DIVIDE" />
+
+        <Button
+            android:id="@+id/sc_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADVANCE" />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="history" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/num1_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Enter 1st Number"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/num2_et"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/num2_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Enter 2nd Number"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num1_et" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

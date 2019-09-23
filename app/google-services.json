@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "792304294343",
+    "firebase_url": "https://assignment1calc.firebaseio.com",
+    "project_id": "assignment1calc",
+    "storage_bucket": "assignment1calc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792304294343:android:95aed96bfd6753dd66e1e2",
+        "android_client_info": {
+          "package_name": "com.example.assignment1calc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792304294343-d2n629qej896h7qi0i61kn4aarn6jj7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assignment1calc",
+            "certificate_hash": "4ef71bbf0cc98e915fc41ecd864b419eec689cf8"
+          }
+        },
+        {
+          "client_id": "792304294343-vbmn9ld49hquf207eim1g8gil51embhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAII1eZNsQb9EClnlzLRR0X-hV2CAGv5iM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792304294343-vbmn9ld49hquf207eim1g8gil51embhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
